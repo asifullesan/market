@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- imported links -->
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font link -->
+
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
+
+    <!-- fontawesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Wizztle</title>
+</head>
+
+<body>
+
+    <!-- nav-section -->
+
+    <section class="top-nav">
+        <nav class="navbar navbar-expand-lg  nav-bg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="./Image/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-option" aria-current="page" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-option" aria-current="page" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-option" aria-current="page" href="#"><i
+                                        class="fa-sharp fa-solid fa-magnifying-glass ccc"></i> Search</a>
+                            </li>
+                            <li class="nav-item">
+                                <img class="nav-user-img" src="./Image/image.jpg" alt=""><i
+                                    class="fa-solid fa-bars ms-2"></i>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="">
+        <div class="container mt-3">
+            <div class="second-nav">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="second-nav">
+                            <a class="sec-nav-op" href="">Overview</a>
+                            <a class="second-nav-option" href="">Compare Package</a>
+                            <a class="second-nav-option" href="">About</a>
+                            <a class="second-nav-option" href="">Recommendations</a>
+                            <a class="second-nav-option" href="">Reviews</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <a class="second-nav-share" href=""> <i class="fa-sharp fa-solid fa-share-nodes"></i> Share</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- category section -->
+
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="category">
+                        <a class="category-option" href="">Wizztle<i class="fa-regular fa-angle-right"></i></a>
+                        <a class="category-option ms-2" href="">Product Photography<i
+                                class="fa-regular fa-angle-right"></i></a>
+                        <a class="category-option ms-2" href="">Non- Garment products<i
+                                class="fa-regular fa-angle-right"></i></a>
+                        <a class="category-option ms-2" href="">Picturesque<i class="fa-regular fa-angle-right"></i></a>
+                    </div>
+                    <div class="mt-5">
+                        <div class="picturesque">
+                            <div class="picturesque-header d-flex justify-content-between">
+                                <div class="picturesque-info">
+                                    <h3>Picturesque</h3>
+                                    <p>Product Photographer in Kolkata</p>
+                                </div>
+                                <div class="picturesque-info-rating">
+                                    <p class="mt-3"><i class="fa-solid fa-star"></i> 4.7 (15)</p>
+                                </div>
+                            </div>
+                            <div class="picturesque-slider mt-3">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <img src="https://closetpilot.com/photoclothing.jpg"
+                                                class="d-block w-100 slider-img" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="https://stylecaster.com/wp-content/uploads/2020/08/fashion-trends-by-decade.jpg"
+                                                class="d-block w-100 slider-img" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="10000">
+                                            <img src="./Image/Rectangle 72.png" class="d-block w-100 slider-img"
+                                                alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="mt-3">
+                                <i class="fa-sharp fa-solid fa-heart  hart-ico"></i>
+                                <i class="fa-sharp fa-solid fa-star star-c-i ms-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="plan">
+                        <div class="plan-box">
+                            <div class="plan-header">
+                                <p>MOST POPULAR</p>
+                            </div>
+                            <div class="basic-info">
+                                <h5>Basic</h5>
+                                <div class="pricing d-flex justify-content-between">
+                                    <div>
+                                        <h4>₹2999/-</h4>
+                                    </div>
+                                    <div>
+                                        <p class="offer">00% OFF</p>
+                                    </div>
+                                </div>
+                                <div class="basic-all-info mt-3">
+                                    <div class="time">
+                                        <i class="fa-solid fa-clock clock-icon"></i> 4 hours <i
+                                            class="fa-solid fa-circle-info info-ico"></i>
+                                    </div>
+                                    <div class="all-thing mt-4">
+                                        <p>Every thing in basic:</p>
+                                        <p><i class="fa-sharp fa-solid fa-circle-check check-ico"></i> 1-50 Product
+                                            shoot</p>
+                                        <p><i class="fa-sharp fa-solid fa-circle-check check-ico"></i> 5 Angle shoot</p>
+                                        <p><i class="fa-sharp fa-solid fa-circle-check check-ico"></i> Visit & shoot</p>
+                                        <p><i class="fa-sharp fa-solid fa-circle-check check-ico"></i> 20 photos editing
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="add-ons mt-2">
+                                    <p>Add ons </p>
+                                    <div class="check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault2" checked>
+                                            <label class="form-check-label" for="flexRadioDefault2">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>10 extra products</div>
+                                                    <div class="ms-5">₹2000/-</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                id="flexRadioDefault1">
+                                            <label class="form-check-label" for="flexRadioDefault1">
+                                                <div class="d-flex justify-content-between">
+                                                    <div>20 photo editing</div>
+                                                    <div class="ms-5">₹2000/-</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="mt-4">
+                                        <div class="choose-btn">
+                                            <p>Choose plan</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="contract-btn mt-3">Contact seller</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="basic-btn">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="basic">Basic</p>
+                                <p class="save">Save 10%</p>
+                            </div>
+                            <div>
+                                <i class="fa-sharp fa-solid fa-circle-check check-i"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Advance-btn mt-3">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <p class="basic">Advance</p>
+                                <p class="save">Save 30%</p>
+                            </div>
+                            <div>
+                                <i class="fa-regular fa-circle check-i"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- portfolio -->
+
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="coll-md-6">
+                    <div class="portfolio">
+                        <div class="portfolio-info">
+                            <h4>Portfolio</h4>
+                            <p>Check the latest work done by your <br> partner</p>
+                        </div>
+                        <div class="photo">
+                            <div class="d-flex">
+                                <button class="photo-btn">Photos</button>
+
+                                <div> <i class="fa-solid fa-circle-chevron-down arr-down ms-2"></i></div>
+                            </div>
+                            <div class="photos mt-4">
+                                <div class="phptp-grid">
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/easfafasfa.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 79.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 82.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 83.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 84.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 85.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 86.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 89.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/easfafasfa.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/vfhgjmfgj.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 84.png" alt="">
+                                    </div>
+                                    <div class="p-item">
+                                        <img class="photo-img" src="./Image/Rectangle 79.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video mt-5">
+                            <div class="d-flex">
+                                <button class="photo-btn">Videos</button>
+
+                                <div> <i class="fa-solid fa-circle-chevron-down arr-down ms-2"></i></div>
+                            </div>
+                            <div class="videos mt-4">
+                                <div class="video-grid">
+                                    <div class="video-item">
+                                        <iframe width="100%" height="180px" src="https://www.youtube.com/embed/HGSR3FDVkkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <iframe width="100%" height="180" src="https://www.youtube.com/embed/HGSR3FDVkkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <iframe width="100%" height="180" src="https://www.youtube.com/embed/HGSR3FDVkkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-item">
+                                        <iframe width="100%" height="180" src="https://www.youtube.com/embed/HGSR3FDVkkQ?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="compare-package">
+                            <div class="mt-4">
+                                <div class="compare-header">
+                                    <h3>Compare Packages</h3>
+                                </div>
+                            </div>
+                            <div class="compare-cart mt-4">
+                                <div class="compare-package-caet">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coll-md-6">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5daa8eb347.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
